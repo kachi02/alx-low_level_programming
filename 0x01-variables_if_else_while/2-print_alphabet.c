@@ -2,15 +2,19 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (success)
+ * Return: Always o (success)
  */
+
 int main(void)
 {
-	char ch;
-	for (ch = 'a' ; ch <= '2' ; ch++)
-	{
-		putchar(ch);
-	}
+	char c;
+
+	c = 'a'
+	while
+		(c <= 'z') {
+			putchar(C);
+			c++;
+		}
 	putchar('\n');
 	return (0);
 }
