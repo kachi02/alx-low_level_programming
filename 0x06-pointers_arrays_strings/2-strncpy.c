@@ -24,3 +24,4 @@ char *strncopy(char *dest, char *src, int n)
 
 	return (dest);
 }
+
