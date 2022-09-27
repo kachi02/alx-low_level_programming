@@ -1,1 +1,1 @@
-0x07 even more pointer, arrays and strings
+c - more pointers, arrays and strings
