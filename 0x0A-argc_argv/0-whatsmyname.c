@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the name of the program
+ * main - prints the name of the program
  * @argv: argument vector of pointers to string
  * Return: Always 0
  */
