@@ -3,6 +3,7 @@
 
 /**
  * main - prints the name of the program
+ * @argc: counts arguments
  * @argv: argument vector of pointers to string
  * Return: Always 0
  */
