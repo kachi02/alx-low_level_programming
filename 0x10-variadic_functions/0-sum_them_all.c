@@ -2,12 +2,11 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all - returns the sum of all the parameters
- * @n: amount of the arguments
+ * sum_them_all - returns the sum of all its parameters.
+ * @n: amount of the arguments.
  *
- * Return: sum of its parameters
+ * Return: sum of the parameters.
  */
-
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
@@ -20,7 +19,7 @@ int sum_them_all(const unsigned int n, ...)
 	va_start(valist, n);
 
 	for (i = 0; i < n; i++)
-		sum += var_arg(valist, int);
+		sum += va_arg(valist, int);
 
 	va_end(valist);
 
